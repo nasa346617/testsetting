@@ -21,12 +21,12 @@ namespace testsetting
         {
             Width = Properties.Settings.Default.width;
             Height = Properties.Settings.Default.height;
-            textBox1.Text = Properties.Settings.Default.text;
+            textbx.Text = Properties.Settings.Default.text;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.text = textBox1.Text;
+            Properties.Settings.Default.text = textbx.Text;
             Properties.Settings.Default.Save();
         }
     }

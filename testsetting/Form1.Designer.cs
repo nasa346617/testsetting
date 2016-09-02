@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textbx = new System.Windows.Forms.TextBox();
             this.savebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textbx
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 97);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 20);
-            this.textBox1.TabIndex = 0;
+            this.textbx.Location = new System.Drawing.Point(12, 97);
+            this.textbx.Name = "textbx";
+            this.textbx.Size = new System.Drawing.Size(260, 20);
+            this.textbx.TabIndex = 0;
             // 
             // savebtn
             // 
@@ -55,7 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.savebtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textbx);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -66,7 +66,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textbx;
         private System.Windows.Forms.Button savebtn;
     }
 }
